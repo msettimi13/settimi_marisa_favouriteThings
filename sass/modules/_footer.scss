@@ -1,12 +1,9 @@
 footer { 
     position: fixed; 
     bottom: 0; 
-    background-color: black;
-
+    background-color:$purple;
+    font-family: $body-font;
     width: 100%;
-
-    @include addPadding(10px);
-
     text-align: center;
-    color: white;
+    color:yellow;
 }
