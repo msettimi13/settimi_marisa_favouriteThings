@@ -1,31 +1,32 @@
-<snippet>
-  <content><![CDATA[
+# Marisa Settimi - Favourite Things
 
-# ${1:Project Name}
-TODO: Write a project description
+## About
+
+Pick 3 things you love and create an app that showcases those things. Design a database
+that contains at least 4 columns - you must include an image of some kind and descriptive
+data about each of those things
+
+## Requirements 
+
+A modern browser
+
+## Built with
+
+* HTML
+* CSS
+* JavaScript
+* [Node.js](https://nodejs.org/en/)
+* [Sass](https://sass-lang.com/)
+
 
 ## Installation
-TODO: Describe the installation process
 
-## Usage
-TODO: Write usage instructions
+`CD` to the location of your choice, right click on the index.html page and open in a modern browser.
 
-## Contributing
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+## Licence 
 
-## History
-TODO: Write history
+MIT
 
-## Credits
-TODO: Write credits
+## Author
 
-## License
-TODO: Write license
-
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
+Design & Build - Marisa Settimi

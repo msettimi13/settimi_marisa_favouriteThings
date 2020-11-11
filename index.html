@@ -8,16 +8,47 @@
     <link rel="stylesheet" href="css/master.css">
 </head>
 <body>
+    <main>
+        <h1 class="hidden">Marisa Settimi - Favourite Things</h1>
 
-        <!-- end component -->
-
+        <!-- header -->
+        <header id="mainHeader">
+            <h1>My Favourite Things</h1>
+        </header>
         <!-- add a user section here -->
+        <div id="ftBox">
+            <div class="controls">
+                <div class="button">
+                    <h3 class="buttonText">Friends</h3>
+                </div>
+                <div class="button">
+                    <h3 class="buttonText">Family</h3>
+                </div>
+                <div class="button">
+                    <h3 class="buttonText">Travel</h3>
+                </div>
 
+                <section class="ftSection">
+                </section>
+            </div>
         <!-- end users section -->
     </main>
 
-    <!-- templates go here (these dont get rendered on the page) -->
+    <!-- footer -->
+    <footer id="mainFooter">
+        <p class="copyright">Copyright 2020. Marisa Settimi.</p>
+    </footer>
+    <!-- end footer -->
 
+
+    <!-- templates go here (these dont get rendered on the page) -->
+    <template id="ftTemplate">
+        <div class="favouriteThings">
+            <h2 class="ft_title"></h2> 
+            <img class="ft_img" src="">
+            <p class="ft_desc"></p>
+        </div>
+    </template>
     <!-- end templates-->
 
     <script type="module" src="js/main.js"></script>

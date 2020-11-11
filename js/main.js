@@ -41,5 +41,5 @@ import { fetchData, postData } from "./modules/DataMiner.js";
         userSection.addEventListener("click", retrieveProjectInfo);
     }
     
-    fetchData("./includes/index.php").then(data => renderPortfolioThumbnails(data)).catch(err => { console.log(err); popErrorBox(err); });
+    fetchData("./includes/functions.php").then(data => renderPortfolioThumbnails(data)).catch(err => { console.log(err); popErrorBox(err); });
 })();
